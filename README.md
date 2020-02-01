@@ -5,13 +5,12 @@ Super light and easy to setup links that scroll the page smoothly to any id with
 
 ## How to use it?
 
-1. Make sure you have jQuery installed. For now the plugin does not support sites without jQuery installed.
-2. Add HTML id attribute to element you want to scroll to, for example:
+1. Add HTML id attribute to element you want to scroll to, for example:
 ```
 <h1 id="your-anchor">Header we will be drawn to smoothly!</h1>
 ```
 
-3. Add hash to href attribute and class attribute to an A tag or element containing A tag, for example:
+2. Add hash to href attribute and class attribute to an A tag or element containing A tag, for example:
 ```
 <a href="#your-anchor" class="sl-animated-scroll">
     Get me smoothly to my anchor!
