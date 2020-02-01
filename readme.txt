@@ -1,27 +1,24 @@
-# Super Light Animated Scroll to id 
-**Contributors:** dlawp  
-**Tags:** scroll, smooth, animation, anchor, jquery, links, scrolling, animate, javascript  
-**Requires at least:** 5.0  
-**Tested up to:** 5.3.2  
-**Requires PHP:** 7.0  
-**Stable tag:** 0.1  
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+=== Super Light Animated Scroll to id ===
+Contributors: dlawp
+Tags: scroll, smooth, animation, anchor, jquery, links, scrolling, animate, javascript
+Requires at least: 5.0
+Tested up to: 5.3.2
+Requires PHP: 7.0
+Stable tag: 0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Super light and easy to setup links that scroll the page smoothly to any id within the document.
 
-
-## Installation 
+== Installation ==
 
 1.  Upload your plugin folder to the '/wp-content/plugins' directory.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
 
 
+== Description ==
 
-## Description 
-
-
-### Basic 
+= Basic =
 
 1. Add HTML id attribute to element you want to scroll to, for example:
 `
@@ -35,8 +32,7 @@ Super light and easy to setup links that scroll the page smoothly to any id with
 </a>
 `
 
-
-### How to hook menu / nav links? 
+= How to hook menu / nav links? =
 
 1. Go to Appearance -> Menus.
 
@@ -57,30 +53,25 @@ sl-animated-scroll
 6. Save and try it!
 
 
-
-## Support 
+== Support ==
 
 If any problems, questions or suggestions please contact us at support@dlawp.pl
 
 GitHub: https://github.com/dlawp/wp-plugin-super-light-animated-scroll
 
 
-
-## Frequently Asked Questions 
+== Frequently Asked Questions ==
 
 There are no FAQ just yet.
 
 
+== Changelog ==
 
-## Changelog 
-
-
-### 0.1 
+= 0.1 =
 * First release
 
 
-
-## Upgrade Notice 
+== Upgrade Notice ==
 
 There is no need to upgrade just yet.
 

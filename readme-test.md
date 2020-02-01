@@ -7,6 +7,8 @@
 **Stable tag:** 0.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+Author URI: https://dlawp.pl/
+Plugin URI: https://dlawp.pl/
 
 Super light and easy to setup links that scroll the page smoothly to any id within the document.
 
