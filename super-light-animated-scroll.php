@@ -8,9 +8,22 @@
 * Author URI: https://dlawp.pl/plugins
 **/
 
+
+
+// make sure to include jQuery lib from WordPress core
+function super_light_animated_include_jquery()
+{
+    wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts', 'super_light_animated_include_jquery');
+
+
+
+// include script as HTML tag in footer, so we don't have to load another script file
 add_action('wp_footer', 'super_light_animated_scroll');
 
-function super_light_animated_scroll() {
+function super_light_animated_scroll()
+{
     ?>
     <script type="text/javascript">
         function hookLinkClassesToScroll($) {
@@ -32,7 +45,7 @@ function super_light_animated_scroll() {
             jQuery(document).ready(function ($) {
                 hookLinkClassesToScroll($);
             })
-        } else if ($) {
+        } else if ($) { // because who knows what other developers are gonna mess with
             $(document).ready(function () {
                 hookLinkClassesToScroll($);
             })
