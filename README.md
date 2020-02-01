@@ -44,3 +44,4 @@ sl-animated-scroll
 
 If any problems, questions or suggestions please contact us at support@dlawp.pl
 
+GitHub: https://github.com/dlawp/wp-plugin-super-light-animated-scroll
