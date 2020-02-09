@@ -18,21 +18,28 @@ Super light and easy to setup links that scroll the page smoothly to any id with
 
 == Description ==
 
-= Basic =
+**Usage**
 
-1. Add HTML id attribute to element you want to scroll to, for example:
+Add HTML id attribute to element you want to scroll to.
+
+*Example:*
 `
 <h1 id="your-anchor">Header we will be drawn to smoothly!</h1>
 `
 
-2. Add hash to href attribute and class attribute to an A tag or element containing A tag, for example:
+Now add hash to href attribute and class `sl-animated-scroll` to an A tag or element containing A tag.
+
+*Example:*
 `
 <a href="#your-anchor" class="sl-animated-scroll">
     Get me smoothly to my anchor!
 </a>
 `
 
-= How to hook menu / nav links? =
+Try it.
+
+
+**How to hook menu / nav links?**
 
 1. Go to Appearance -> Menus.
 
@@ -40,15 +47,9 @@ Super light and easy to setup links that scroll the page smoothly to any id with
 
 3. Create new Custom Link 
 
-4. Add your anchor in URL of the custom link, for example:
-`
-/#your-anchor
-`
+4. Add your anchor in URL of the custom link: `/#your-anchor`
 
-5. Insert special class to the custom link:
-`
-sl-animated-scroll
-`
+5. Insert special class to the custom link: `sl-animated-scroll`
 
 6. Save and try it!
 
