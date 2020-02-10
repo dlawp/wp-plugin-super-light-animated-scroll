@@ -27,16 +27,18 @@ function super_light_animated_scroll()
     <script type="text/javascript">
         function hookLinkClassesToScroll($) {
             $("a.sl-animated-scroll, .sl-animated-scroll a").on("click", function (e) {
-                e.preventDefault();
-                
                 var targetId = $(this).prop("hash");
                 if (targetId.charAt(0) != "#") {
                     targetId = "#" + targetId;
                 }
 
-                $([document.documentElement, document.body]).animate({
-                    scrollTop: $(targetId).offset().top
-                }, 500);
+                if ($(targetId) && $(targetId).offset()) {
+                    e.preventDefault();
+
+                    $([document.documentElement, document.body]).animate({
+                        scrollTop: $(targetId).offset().top
+                    }, 500);
+                }
             });
         }
 
