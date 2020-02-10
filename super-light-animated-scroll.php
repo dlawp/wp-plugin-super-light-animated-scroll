@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Super Light Animated Scroll to id
 * Description: Super light and easy to setup links that scroll the page smoothly to any id within the document.
-* Version: 0.1
+* Version: 0.2.1
 * Author: DlaWP.pl <support@dlaWP.pl>
 * Author URI: https://dlawp.pl/plugins
 **/
